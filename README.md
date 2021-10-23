@@ -38,6 +38,8 @@ const app = createApp(App);
 initQuasar(app);
 app.mount("#app");
 ```
+10. npm install @quasar/extras (for fonts and icons)
+    - add import(s) in src/quasar.js
 
 NEXT TO-DO:
 - store example set-up

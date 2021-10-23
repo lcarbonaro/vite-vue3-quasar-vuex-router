@@ -2,7 +2,7 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vite + Vue 3 + Quasar" />
 
-  <q-btn color="teal">Test</q-btn>
+  <q-btn icon="mail" color="teal">Test</q-btn>
 </template>
 
 <script setup>
