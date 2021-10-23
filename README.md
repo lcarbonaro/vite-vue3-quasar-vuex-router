@@ -10,7 +10,7 @@
 6. npm install quasar --save
 7. npm install @quasar/app --save
 8. added src/quasar.js 
-```
+``` javascript
 import { Quasar, Notify, Loading } from "quasar";
 import "quasar/dist/quasar.prod.css";
 
@@ -27,7 +27,7 @@ export function initQuasar(app) {
 }
 ```
 9. modified main.js
-```
+``` javascript
 import { createApp } from "vue";
 import App from "./App.vue";
 import { initQuasar } from "./quasar";
