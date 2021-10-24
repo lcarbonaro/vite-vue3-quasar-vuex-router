@@ -1,8 +1,12 @@
 <template>
+  <router-view></router-view>
+
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vite + Vue 3 + Quasar" />
 
-  <q-btn icon="mail" color="teal">Test</q-btn>
+  <div class="q-mt-md">
+    <q-btn icon="mail" color="teal">Test</q-btn>
+  </div>
 </template>
 
 <script setup>
@@ -17,7 +21,6 @@ import HelloWorld from './components/HelloWorld.vue'
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>
